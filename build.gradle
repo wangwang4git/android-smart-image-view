@@ -1,0 +1,14 @@
+apply from: 'https://raw.github.com/wangwang4git/GradleTools/master/gradle-mvn-push/gradle-mvn-push-java.gradle'
+
+apply plugin: 'java'
+
+version = POM_VERSION
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group:'com.google.android', name:'android', version:'2.3.3'
+}
+
